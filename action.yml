@@ -1,0 +1,12 @@
+---
+name: Ansible Molecule Github Action
+description: GitHub Action for ansible molecule
+author: Leo Moletti
+
+branding:
+  icon: book
+  color: gray-dark
+
+runs:
+  using: docker
+  image: docker://moletti/molecule-action:latest
